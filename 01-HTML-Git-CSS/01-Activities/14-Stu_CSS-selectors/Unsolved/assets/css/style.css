@@ -1,0 +1,34 @@
+/* This code sets the font family to "Lucida Sans Unicode", "Lucida Grande", or a generic sans-serif font for all elements in the HTML document. */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* This code sets the background color of the entire web page's body to "lemonchiffon." */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+/* This code styles the header and footer elements, making them full width (100%) and giving them a height of 100 pixels. It sets the text color to a light shade of yellow (#f0ead6) and the background color to a dark blue (#191970). */
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+/* This code styles the figure element, giving it a fixed width of 200 pixels and a background color of #f0ead6. */
+
+/* TThis code defines a style for elements with the class "highlighted-text," making their text appear bolder.e */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* This code targets an element with the ID "contact-section" and sets its background color to #f0ead6. */
+#contact-section {
+  background-color: #f0ead6;
+}
